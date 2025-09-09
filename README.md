@@ -1,4 +1,4 @@
-This repo is provided aas an English translation to the original from https://github.com/ZB678232321/ComfyUI-wan-prompt-generator
+This repo is provided as an English translation to the original from https://github.com/ZB678232321/ComfyUI-wan-prompt-generator
 
 # ComfyUI Wan2.2 Prompt Generation Plugin
 
