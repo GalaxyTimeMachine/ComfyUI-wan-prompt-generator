@@ -19,4 +19,3 @@ A preset prompt plugin based on the Wan2.2 template, used to automatically gener
 ## Usage
 
 Select the subject type, input a custom subject description, and choose camera movement, lighting, action, and other parameters to automatically generate a complete Wan2.2-formatted prompt.
-
