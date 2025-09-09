@@ -1,58 +1,58 @@
 """
-ComfyUI Wan2.2提示词生成插件
-作者：CodeBuddy
-版本：1.0
-描述：基于Wan2.2黄金顺序模板的智能提示词生成插件
+ComfyUI Wan2.2 Prompt Generation Plugin
+Author: CodeBuddy
+Version: 1.0
+Description: An intelligent prompt generation plugin based on the Wan2.2 golden order template
 """
 
 import os
 import sys
 import traceback
 
-# 获取当前文件所在目录的绝对路径
+# Get the absolute path of the current file's directory
 current_dir = os.path.dirname(os.path.abspath(__file__))
-print(f"[Wan2.2提示词生成插件] 当前插件目录: {current_dir}")
+print(f"[Wan2.2 Prompt Generation Plugin] Current plugin directory: {current_dir}")
 
-# 将当前目录添加到Python路径中
+# Add the current directory to the Python path
 if current_dir not in sys.path:
     sys.path.append(current_dir)
-    print(f"[Wan2.2提示词生成插件] 已将目录添加到系统路径: {current_dir}")
+    print(f"[Wan2.2 Prompt Generation Plugin] Directory added to system path: {current_dir}")
 
-# 节点类映射字典
+# Node class mapping dictionaries
 NODE_CLASS_MAPPINGS = {}
 NODE_DISPLAY_NAME_MAPPINGS = {}
 
 try:
-    # 导入提示词预设生成节点
-    print("[Wan2.2提示词生成插件] 开始导入Wan22PromptGenerator节点...")
+    # Import the prompt preset generation node
+    print("[Wan2.2 Prompt Generation Plugin] Starting import of Wan22PromptGenerator node...")
     
-    # 尝试多种导入方式以确保兼容性
+    # Try multiple import methods to ensure compatibility
     try:
-        # 首先尝试相对导入
+        # First, try relative import
         from .nodes import Wan22PromptGenerator
-        print("[Wan2.2提示词生成插件] 使用相对导入成功")
+        print("[Wan2.2 Prompt Generation Plugin] Relative import successful")
     except ImportError:
-        # 如果相对导入失败，尝试绝对导入
+        # If relative import fails, try absolute import
         import nodes
         Wan22PromptGenerator = nodes.Wan22PromptGenerator
-        print("[Wan2.2提示词生成插件] 使用绝对导入成功")
+        print("[Wan2.2 Prompt Generation Plugin] Absolute import successful")
 
-    # 注册节点类
+    # Register the node class
     NODE_CLASS_MAPPINGS["Wan22PromptGenerator"] = Wan22PromptGenerator
 
-    NODE_DISPLAY_NAME_MAPPINGS["Wan22PromptGenerator"] = "Wan2.2提示词预设生成器"
+    NODE_DISPLAY_NAME_MAPPINGS["Wan22PromptGenerator"] = "Wan2.2 Prompt Preset Generator"
 
-    print(f"[Wan2.2提示词生成插件] 成功注册节点数量: {len(NODE_CLASS_MAPPINGS)}")
+    print(f"[Wan2.2 Prompt Generation Plugin] Successfully registered node count: {len(NODE_CLASS_MAPPINGS)}")
     for node_name, display_name in NODE_DISPLAY_NAME_MAPPINGS.items():
-        print(f"[Wan2.2提示词生成插件] 注册节点: {node_name} -> {display_name}")
+        print(f"[Wan2.2 Prompt Generation Plugin] Registered node: {node_name} -> {display_name}")
 
 except ImportError as e:
-    print(f"[Wan2.2提示词生成插件] 导入错误: {str(e)}")
-    print(f"[Wan2.2提示词生成插件] 错误详情: {traceback.format_exc()}")
+    print(f"[Wan2.2 Prompt Generation Plugin] Import error: {str(e)}")
+    print(f"[Wan2.2 Prompt Generation Plugin] Error details: {traceback.format_exc()}")
     
-    # 尝试最后的备用方案
+    # Try the last fallback method
     try:
-        print("[Wan2.2提示词生成插件] 尝试备用导入方案...")
+        print("[Wan2.2 Prompt Generation Plugin] Attempting fallback import method...")
         import sys
         import importlib.util
         
@@ -64,18 +64,18 @@ except ImportError as e:
         NODE_CLASS_MAPPINGS["Wan22PromptGenerator"] = nodes_module.Wan22PromptGenerator
 
         
-        NODE_DISPLAY_NAME_MAPPINGS["Wan22PromptGenerator"] = "Wan2.2提示词预设生成器"
+        NODE_DISPLAY_NAME_MAPPINGS["Wan22PromptGenerator"] = "Wan2.2 Prompt Preset Generator"
         
-        print("[Wan2.2提示词生成插件] 备用导入方案成功")
+        print("[Wan2.2 Prompt Generation Plugin] Fallback import method successful")
         
     except Exception as backup_e:
-        print(f"[Wan2.2提示词生成插件] 备用导入也失败: {str(backup_e)}")
+        print(f"[Wan2.2 Prompt Generation Plugin] Fallback import also failed: {str(backup_e)}")
 
 except Exception as e:
-    print(f"[Wan2.2提示词生成插件] 未知错误: {str(e)}")
-    print(f"[Wan2.2提示词生成插件] 错误详情: {traceback.format_exc()}")
+    print(f"[Wan2.2 Prompt Generation Plugin] Unknown error: {str(e)}")
+    print(f"[Wan2.2 Prompt Generation Plugin] Error details: {traceback.format_exc()}")
 
-# 导出给ComfyUI使用的关键变量
+# Export key variables for ComfyUI
 __all__ = ['NODE_CLASS_MAPPINGS', 'NODE_DISPLAY_NAME_MAPPINGS']
 
-print("[Wan2.2提示词生成插件] __init__.py 加载完成!")
+print("[Wan2.2 Prompt Generation Plugin] __init__.py loaded!")
