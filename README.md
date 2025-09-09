@@ -1,22 +1,21 @@
-# ComfyUI Wan2.2提示词生成插件
+# ComfyUI Wan2.2 Prompt Generation Plugin
 
-基于Wan2.2的提示词预设插件，用于自动生成高质量的视频生成提示词。
+A preset prompt plugin based on the Wan2.2 template, used to automatically generate high-quality video generation prompts.
 
-## 功能
+## Features
 
-- 支持人物和物体两种主体类型
-- 19种人物运镜预设 + 18种物体运镜预设
-- 21种光线效果
-- 31种人物动作预设
-- 10种情绪表情预设
+- Supports two subject types: **characters** and **objects**.
+- 19 preset camera movements for characters + 18 for objects.
+- 21 lighting effects.
+- 31 preset character actions.
+- 10 preset emotion expressions.
 
-## 安装
+## Installation
 
-1. 将插件文件夹复制到ComfyUI的`custom_nodes`目录
-2. 重启ComfyUI
-3. 在节点菜单中找到`Wan2.2/提示词生成`分类
+1. Copy the plugin folder into ComfyUI's `custom_nodes` directory.
+2. Restart ComfyUI.
+3. Find the `Wan2.2/Prompt Generation` category in the node menu.
 
-## 使用
+## Usage
 
-选择主体类型，输入自定义主体描述，选择运镜、光线、动作等参数，自动生成完整的Wan2.2格式提示词。
-
+Select the subject type, input a custom subject description, and choose camera movement, lighting, action, and other parameters to automatically generate a complete Wan2.2-formatted prompt.
