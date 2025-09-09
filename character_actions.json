@@ -1,126 +1,126 @@
 {
   "1": {
-    "name": "站立静止",
-    "description": "主体在画面中央保持站立不动，姿态自然，重心稳定，面部表情保持一致。"
+    "name": "Standing Still",
+    "description": "The subject stands still in the center of the frame, with a natural posture, stable center of gravity, and a consistent facial expression."
   },
   "2": {
-    "name": "缓步前行（正前方）",
-    "description": "主体从原地缓缓向正前方走，步伐均匀，动作平稳，始终保持在画面中心位置。"
+    "name": "Slow Walk (Forward)",
+    "description": "The subject slowly walks forward from their original position, with an even pace, steady movement, and stays in the center of the frame."
   },
   "3": {
-    "name": "缓步前行（左前方）",
-    "description": "主体从原地缓缓向左前方走，身体略微转向目标方向，步伐均匀，重心稳定。"
+    "name": "Slow Walk (Forward Left)",
+    "description": "The subject slowly walks toward the front left from their original position, with their body slightly turned toward the target direction, an even pace, and a stable center of gravity."
   },
   "4": {
-    "name": "缓步前行（右前方）",
-    "description": "主体从原地缓缓向右前方走，身体略微转向目标方向，步伐轻盈自然。"
+    "name": "Slow Walk (Forward Right)",
+    "description": "The subject slowly walks toward the front right from their original position, with their body slightly turned toward the target direction, and a light, natural pace."
   },
   "5": {
-    "name": "缓步后行（正后方）",
-    "description": "主体身体朝向镜头，缓慢向正后方退步，步伐稳定，重心不晃动。"
+    "name": "Slow Backstep (Backward)",
+    "description": "The subject faces the camera and slowly steps backward, with a stable pace and no shaking of the center of gravity."
   },
   "6": {
-    "name": "缓步后行（左后方）",
-    "description": "主体身体略微偏向左后方，缓慢后退，保持平衡与稳定的姿态。"
+    "name": "Slow Backstep (Backward Left)",
+    "description": "The subject's body is slightly turned to the back left. The subject turns from front-facing to back-facing and gradually moves into the background, with a smooth, natural motion."
   },
   "7": {
-    "name": "缓步后行（右后方）",
-    "description": "主体身体略微偏向右后方，缓慢后退，动作连贯自然。"
+    "name": "Slow Backstep (Backward Right)",
+    "description": "The subject's body is slightly turned to the back right. The subject turns from front-facing to back-facing and gradually moves into the background, with a smooth, natural motion."
   },
   "8": {
-    "name": "向左走",
-    "description": "主体身体面向前方，侧向向左移动，步伐轻盈，保持平衡。"
+    "name": "Walking Left",
+    "description": "The subject faces forward and moves sideways to the left, with a light pace and maintaining balance."
   },
   "9": {
-    "name": "向右走",
-    "description": "主体身体面向前方，侧向向右移动，动作平稳自然。"
+    "name": "Walking Right",
+    "description": "The subject faces forward and moves sideways to the right, with a smooth, natural motion."
   },
   "10": {
-    "name": "快速奔跑（正前方）",
-    "description": "主体以高速向正前方奔跑，动作连贯，肢体大幅摆动，背景产生明显动态模糊。"
+    "name": "Fast Run (Forward)",
+    "description": "The subject runs forward at high speed, with a continuous motion and large arm swings. The background has an obvious motion blur."
   },
   "11": {
-    "name": "快速奔跑（左前方）",
-    "description": "主体以高速向左前方奔跑，身体微微前倾，动作充满动感。"
+    "name": "Fast Run (Forward Left)",
+    "description": "The subject runs toward the front left at high speed, with their body leaning slightly forward and the movement full of energy."
   },
   "12": {
-    "name": "快速奔跑（右前方）",
-    "description": "主体以高速向右前方奔跑，肢体有力摆动，背景出现速度残影。"
+    "name": "Fast Run (Forward Right)",
+    "description": "The subject runs toward the front right at high speed, with powerful arm swings and a speed blur in the background."
   },
   "13": {
-    "name": "快速后退（正后方）",
-    "description": "主体面向镜头，高速向正后方退步，动作灵活，保持身体稳定。"
+    "name": "Fast Retreat (Backward)",
+    "description": "The subject faces the camera and quickly steps backward, with a flexible motion and maintaining body stability."
   },
   "14": {
-    "name": "快速后退（左后方）",
-    "description": "主体身体偏向左后方，快速撤退，保持平衡不失稳。"
+    "name": "Fast Retreat (Backward Left)",
+    "description": "The subject's body is turned to the back left, and they quickly retreat while maintaining balance."
   },
   "15": {
-    "name": "快速后退（右后方）",
-    "description": "主体身体偏向右后方，快速撤退，动作连贯。"
+    "name": "Fast Retreat (Backward Right)",
+    "description": "The subject's body is turned to the back right, and they quickly retreat with a continuous motion."
   },
   "16": {
-    "name": "向左跑动",
-    "description": "主体身体微微倾向左侧，双腿交替快速移动，向画面左侧跑动，背景产生水平动态模糊。"
+    "name": "Running Left",
+    "description": "The subject's body is slightly leaning to the left, and their legs move quickly as they run to the left side of the frame. The background has a horizontal motion blur."
   },
   "17": {
-    "name": "向右跑动",
-    "description": "主体身体微微倾向右侧，双腿交替快速移动，向画面右侧跑动，背景产生水平动态模糊。"
+    "name": "Running Right",
+    "description": "The subject's body is slightly leaning to the right, and their legs move quickly as they run to the right side of the frame. The background has a horizontal motion blur."
   },
   "18": {
-    "name": "原地转身",
-    "description": "主体快速或缓慢在原地旋转身体，转动过程中保持重心不偏移。"
+    "name": "Turning in place",
+    "description": "The subject quickly or slowly rotates their body in place, maintaining a steady center of gravity during the turn."
   },
   "19": {
-    "name": "向左转身",
-    "description": "主体在原地将身体向左旋转，动作干净利落，转向后保持新的面向稳定不动。"
+    "name": "Turn Left",
+    "description": "The subject rotates their body to the left in place, with a clean, crisp motion, then remains stable in the new direction."
   },
   "20": {
-    "name": "向右转身",
-    "description": "主体在原地将身体向右旋转，动作流畅自然，转向后保持新的面向稳定不动。"
+    "name": "Turn Right",
+    "description": "The subject rotates their body to the right in place, with a smooth, natural motion, then remains stable in the new direction."
   },
   "21": {
-    "name": "抬手挥动",
-    "description": "主体将一只手缓缓抬起并挥动，动作幅度适中，手臂与身体动作协调自然。"
+    "name": "Raise Hand and Wave",
+    "description": "The subject slowly raises one hand and waves, with a moderate range of motion and natural coordination between the arm and body movements."
   },
   "22": {
-    "name": "伸手接物",
-    "description": "主体从身前伸出手，手掌自然张开，动作流畅地接住或触碰空中的物体。"
+    "name": "Reach to Receive",
+    "description": "The subject reaches out a hand in front of them, with a naturally open palm, smoothly receiving or touching an object in mid-air."
   },
   "23": {
-    "name": "跳跃腾空",
-    "description": "主体双脚同时离地，身体向上跃起，四肢自然舒展，落地动作平稳。"
+    "name": "Jump and Leap",
+    "description": "The subject's feet leave the ground at the same time, their body leaps upward, their limbs stretch naturally, and the landing is smooth."
   },
   "24": {
-    "name": "下蹲起立",
-    "description": "主体从站立缓慢下蹲，停顿片刻后再平稳站起，全程动作连贯自然。"
+    "name": "Crouch and Stand",
+    "description": "The subject slowly crouches from a standing position, pauses for a moment, and then stands up smoothly. The entire motion is continuous and natural."
   },
   "25": {
-    "name": "旋转舞动",
-    "description": "主体原地旋转身体，双臂随动作自然摆动，衣物和头发产生轻微飘动效果。"
+    "name": "Spinning Dance",
+    "description": "The subject rotates their body in place, with their arms naturally swinging with the motion. Their clothes and hair have a slight flowing effect."
   },
   "26": {
-    "name": "双手展开",
-    "description": "主体将双臂缓缓向两侧张开，姿态开放，动作幅度大且保持平衡感。"
+    "name": "Arms Spread Out",
+    "description": "The subject slowly spreads their arms out to the sides, with an open posture, a large range of motion, and maintains a sense of balance."
   },
   "27": {
-    "name": "回头注视",
-    "description": "主体缓缓转动头部，回望身后，表情随动作发生细微变化。"
+    "name": "Turn to Gaze",
+    "description": "The subject slowly turns their head to look back, and their expression changes slightly with the motion."
   },
   "28": {
-    "name": "举物展示",
-    "description": "主体双手托起或高举某个物体，动作稳定，确保物体正面朝向镜头。"
+    "name": "Hold Object Up",
+    "description": "The subject holds or lifts an object with both hands in a stable motion, ensuring the front of the object faces the camera."
   },
   "29": {
-    "name": "蹬地冲刺",
-    "description": "主体在原地蓄力后猛然蹬地，加速向前冲出，动作爆发力强，伴随明显的速度感。"
+    "name": "Push-Off Sprint",
+    "description": "The subject builds up energy in place, then suddenly pushes off the ground, accelerating forward into a sprint. The motion has strong explosive power and a clear sense of speed."
   },
   "30": {
-    "name": "拥抱动作",
-    "description": "主体双臂向前环抱，肢体语言表现温暖或保护感，动作柔和流畅。"
+    "name": "Embracing Action",
+    "description": "The subject's arms wrap around something in front, with body language expressing warmth or protection. The motion is soft and fluid."
   },
   "31": {
-    "name": "击打出拳",
-    "description": "主体身体前倾，快速伸出手臂完成一次击打或出拳，动作干脆有力。"
+    "name": "Punching Action",
+    "description": "The subject leans forward and quickly extends an arm to complete a hit or punch. The motion is sharp and powerful."
   }
 }
