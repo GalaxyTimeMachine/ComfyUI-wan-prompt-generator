@@ -1,3 +1,5 @@
+This repo is provided as an English translation to the original from https://github.com/ZB678232321/ComfyUI-wan-prompt-generator
+
 # ComfyUI Wan2.2 Prompt Generation Plugin
 
 A preset prompt plugin based on the Wan2.2 template, used to automatically generate high-quality video generation prompts.
@@ -19,4 +21,3 @@ A preset prompt plugin based on the Wan2.2 template, used to automatically gener
 ## Usage
 
 Select the subject type, input a custom subject description, and choose camera movement, lighting, action, and other parameters to automatically generate a complete Wan2.2-formatted prompt.
-

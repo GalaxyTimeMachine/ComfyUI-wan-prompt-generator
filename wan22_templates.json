@@ -348,11 +348,11 @@
     }
   },
   "parameter_options": {
-    "Subject Type": [
+    "subject_type": [
       "Character",
       "Object"
     ],
-    "Character Camera Type": [
+    "character_camera_type": [
       "1 - Fixed Composition",
       "2 - Slow Zoom-In",
       "3 - Slow Zoom-Out",
@@ -373,7 +373,7 @@
       "18 - Horizontal Orbit (180° Two-Segment)",
       "19 - Orbit + Flip"
     ],
-    "Object Camera Type": [
+    "object_camera_type": [
       "1 - Rotate in place (Camera surrounding)",
       "2 - Zoom to Detail",
       "3 - Bird's-Eye View Rotation",
@@ -393,7 +393,7 @@
       "17 - Empty Shot (Pan Down)",
       "18 - Stable Shot"
     ],
-    "Lighting Type": [
+    "lighting_type": [
       "No Lighting Effect",
       "Sunlight",
       "Morning Light",
@@ -416,7 +416,7 @@
       "Chest Spotlight",
       "Full-Color Light"
     ],
-    "Character Action": [
+    "character_action": [
       "No Specific Action",
       "1 - Standing Still",
       "2 - Slow Walk (Forward)",
@@ -450,7 +450,7 @@
       "30 - Embracing Action",
       "31 - Punching Action"
     ],
-    "Emotional Expression": [
+    "emotional_expression": [
       "No Specific Emotion",
       "Laughing with Mouth Open",
       "Shocked with Eyes Wide",
